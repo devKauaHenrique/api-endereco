@@ -1,0 +1,23 @@
+{
+  "name": "api-endereco",
+  "version": "1.0.0",
+  "description": "Api de endereço para atividade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Kauã Henrique",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.1"
+  }
+}
